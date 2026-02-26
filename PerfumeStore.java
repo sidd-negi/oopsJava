@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-// Parent class
 class Perfume {
     protected String brand;
 
@@ -13,7 +12,6 @@ class Perfume {
     }
 }
 
-// Child class
 class GenderPerfume extends Perfume {
 
     public GenderPerfume(String brand) {
@@ -21,7 +19,6 @@ class GenderPerfume extends Perfume {
     }
 }
 
-// Main class
 public class PerfumeStore {
     public static void main(String[] args) {
 
