@@ -34,7 +34,7 @@ public class PerfumeStore {
             p.suggest();
         } 
         else if (gender.equalsIgnoreCase("female")) {
-            GenderPerfume p = new GenderPerfume("Chanel No.5");
+            GenderPerfume p = new GenderPerfume("Chanel");
             p.suggest();
         } 
         else {
