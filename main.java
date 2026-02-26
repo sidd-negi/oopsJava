@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+//super
 class Account{
     int balance;
     Account(int balance){
@@ -21,6 +22,7 @@ class Vehicle{
     }
 }
 
+// override
 class Car extends Vehicle{
     @Override
     void start(){
